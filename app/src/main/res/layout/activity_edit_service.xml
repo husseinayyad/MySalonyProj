@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/saloonbackground3"
+    android:layout_height="match_parent"
+    tools:context=".AddServiceActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/uploadimage"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:id="@+id/tv30"
+        android:fontFamily="casual"
+        android:layout_marginTop="40dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/selectpro"
+        android:layout_below="@+id/tv30"
+        android:text="Add Picture"
+        android:src="@drawable/upload"
+        android:textSize="15sp"
+
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+
+        android:layout_height="180dp">
+        android:scaleType="fitXY"
+
+    </ImageView>
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/proprice"
+        android:layout_below="@+id/selectpro"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:padding="6dp"
+        android:fontFamily="casual"
+        android:hint="@string/price"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="14sp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prodesc"
+        android:layout_below="@+id/proprice"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:padding="6dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="14sp"
+        android:hint="@string/desc"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:fontFamily="casual"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addpro1"
+        android:layout_below="@+id/prodesc"
+        android:text="@string/update"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:padding="6dp"
+        android:layout_marginTop="19dp"
+        android:textStyle="italic"
+        android:textSize="13dp"
+        android:fontFamily="casual"
+        android:textColor="@android:color/white"
+        android:background="@drawable/reg_btn_style"
+
+        />
+</RelativeLayout>
+

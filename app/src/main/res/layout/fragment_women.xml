@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WomenFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/applogin"
+        android:layout_alignParentTop="true"
+        android:fontFamily="casual"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Women Category"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/lin1"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:layout_below="@+id/applogin"
+                android:layout_alignParentStart="true"
+
+                android:layout_marginTop="-25dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_alignParentLeft="true">
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Massage"
+                        android:fontFamily="casual"
+                        android:padding="5dp"
+                        android:textSize="11sp"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/message"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center"
+
+                        />
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_below="@id/message"
+                        android:id="@+id/imgmessage"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/massage"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Threading"
+                        android:fontFamily="casual"
+                        android:padding="5dp"
+                        android:id="@+id/ther"
+                        android:textSize="11sp"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center"
+
+                        />
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_below="@id/ther"
+                        android:id="@+id/imgther"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ther"/>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:fontFamily="casual"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Facial"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/Facial"
+                        android:textAlignment="center"
+
+                        android:textSize="11sp"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_below="@id/Facial"
+                        android:id="@+id/imgfacial"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/facial"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Hair"
+                        android:fontFamily="casual"
+                        android:textSize="11sp"
+                        android:id="@+id/hair"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:padding="5dp"
+
+                        android:layout_centerHorizontal="true"
+
+
+
+                        />
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_below="@id/hair"
+                        android:id="@+id/imghair"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/hai"/>
+                </RelativeLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lin1"
+                android:layout_alignParentStart="true"
+
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="0dp">
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/BridalHairampMakeup"
+                        android:padding="5dp"
+                        android:textSize="10sp"
+                        android:id="@+id/bac"
+                        android:fontFamily="casual"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center"
+
+                        android:layout_centerHorizontal="true"
+                        />
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:id="@+id/imgbdc"
+                        android:layout_below="@id/bac"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/bhmak"/>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Eyelash"
+                        android:fontFamily="casual"
+                        android:padding="5dp"
+                        android:textSize="11sp"
+                        android:id="@+id/eye"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center"
+
+                        />
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_below="@id/eye"
+                        android:id="@+id/imgeye"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/eye"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/MakeUp"
+                        android:id="@+id/makup"
+                        android:fontFamily="casual"
+                        android:textAlignment="center"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="11sp"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_below="@id/makup"
+                        android:id="@+id/imgmakeup"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/makeuppp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/NailsMakeup"
+                        android:fontFamily="casual"
+                        android:textSize="11sp"
+                        android:id="@+id/nails"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+
+                        />
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_below="@id/nails"
+                        android:id="@+id/imgnails"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/nails"/>
+                </RelativeLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lin2"
+                android:layout_alignParentStart="true"
+
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_alignParentLeft="true">
+
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Offers"
+                        android:padding="5dp"
+                        android:id="@+id/offers"
+                        android:fontFamily="casual"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="11sp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center"
+
+                        />
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_below="@id/offers"
+                        android:id="@+id/imgoffers1"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/offers"/>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PermanentMakeUp"
+                        android:padding="5dp"
+                        android:fontFamily="casual"
+                        android:id="@+id/pamak"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="10sp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center"
+
+                        />
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:id="@+id/imgpmk"
+                        android:layout_below="@id/pamak"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/pmak"/>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:fontFamily="casual"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Bodycare"
+                        android:id="@+id/bc"
+                        android:textAlignment="center"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="11sp"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_below="@id/bc"
+                        android:id="@+id/imgbcare"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/bodycare"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Waxing"
+                        android:textSize="11sp"
+                        android:id="@+id/wax"
+                        android:fontFamily="casual"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+
+                        />
+
+
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_below="@id/wax"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/imgwax"
+                        android:src="@drawable/waxing"/>
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+</RelativeLayout>

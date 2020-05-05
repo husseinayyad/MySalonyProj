@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/cover"
+            android:layout_centerHorizontal="true"
+
+            android:src="@drawable/profile"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/names"
+            android:text="name"
+            android:fontFamily="casual"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/reg_edittext_style"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cover"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addresss"
+            android:text="Address"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:fontFamily="casual"
+            android:background="@drawable/reg_edittext_style"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/names"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phones"
+            android:text="Phone"
+            android:layout_marginTop="10dp"
+            android:fontFamily="casual"
+            android:background="@drawable/reg_edittext_style"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/addresss"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/saloonbackground3"
+    android:layout_height="match_parent"
+    tools:context=".EditMyProfile">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/barsettings"
+
+        android:background="@color/colorPrimaryDark"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarsetting"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="@string/Close"
+                    android:id="@+id/close"
+                    android:fontFamily="casual"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="@string/update"
+                    android:fontFamily="casual"
+                    android:id="@+id/update"
+                    android:layout_marginRight="10dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/settingphone"
+       android:layout_marginTop="30dp"
+        android:layout_below="@+id/barsettings"
+        android:hint="@string/email"
+        android:fontFamily="casual"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+android:textSize="18sp"
+        android:padding="10dp"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/settingimg"
+        android:src="@drawable/profile"
+        android:layout_below="@+id/settingphone"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/changeprofile"
+        android:id="@+id/profileimgch"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/settingimg"
+        android:layout_marginTop="4dp"
+        android:fontFamily="casual"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/settingname"
+        android:layout_below="@+id/profileimgch"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:hint="@string/name"
+        android:layout_margin="15dp"
+        android:fontFamily="casual"
+        android:padding="10dp"
+        />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+       ads:adUnitId="@string/banner_ad_unit_id" />
+</RelativeLayout>

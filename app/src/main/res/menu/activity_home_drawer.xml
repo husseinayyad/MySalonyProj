@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/favv1"
+            android:title="@string/fav" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/tg"
+            android:title="@string/mysalon" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/salonss"
+            android:title="@string/Salons" />
+        <item
+            android:id="@+id/maa"
+            android:icon="@drawable/makeup"
+            android:title="@string/makeupar" />
+       <item
+        android:id="@+id/serc"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/serc" />
+
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/Editmyprof" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

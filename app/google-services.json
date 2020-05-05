@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "238447604617",
+    "firebase_url": "https://mysalonyproj.firebaseio.com",
+    "project_id": "mysalonyproj",
+    "storage_bucket": "mysalonyproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238447604617:android:95ec38850b2cb7ab",
+        "android_client_info": {
+          "package_name": "com.exm.example.mysalonyproj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238447604617-q10sqkb0466fli46d839jcj8o7f6farb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exm.example.mysalonyproj44",
+            "certificate_hash": "57b1b14d93907337036e9eed9b5c2445a0abf46c"
+          }
+        },
+        {
+          "client_id": "238447604617-es7kichhd0cv0kp0onl4lpusd6kcsmm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3IECD39ZRLG5NF-Q7dceeCjcy9kKfetY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238447604617-es7kichhd0cv0kp0onl4lpusd6kcsmm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

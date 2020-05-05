@@ -1,0 +1,108 @@
+
+
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+xmlns:ads="http://schemas.android.com/apk/res-auto"
+android:background="@drawable/saloonbackground3"
+android:layout_height="match_parent"
+tools:context=".EditMyProfile">
+<com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/barsettings"
+
+    android:background="@color/colorPrimaryDark"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarsetting"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Spinner
+                android:id="@+id/subcatspiner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+
+
+
+                app:fontFamily="casual" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+</com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ly"
+        android:layout_below="@+id/barsettings"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:textSize="9sp"
+            android:text="@string/salonforwomen"
+            android:textColor="@android:color/white"
+            android:background="@drawable/reg_btn_style"
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:textSize="9sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_centerHorizontal="true"
+
+            android:layout_toRightOf="@id/btn1"
+android:text="@string/salonformen"
+            android:textColor="@android:color/white"
+            android:background="@drawable/reg_btn_style"
+
+            android:padding="10dp"
+
+            />
+    </LinearLayout>
+
+
+
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:id="@+id/rys1"
+    android:layout_marginTop="10dp"
+    android:layout_below="@+id/ly"
+android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    ></androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

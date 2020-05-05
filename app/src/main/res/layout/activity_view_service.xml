@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/saloonbackground3"
+    tools:context=".ViewServiceActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/barsettings"
+
+        android:background="@color/colorPrimaryDark"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarsetting"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Spinner
+                    android:id="@+id/subcatspiner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:theme="@style/Spinner"
+                    app:fontFamily="casual"
+
+                    />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:id="@+id/rys1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/barsettings"
+        android:paddingTop="10dp"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

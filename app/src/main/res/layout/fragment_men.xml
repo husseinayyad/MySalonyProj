@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/applogin"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Men Category"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/lin1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/applogin"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginTop="-25dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_alignParentLeft="true">
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+                <TextView
+                    android:fontFamily="casual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Haircut"
+                    android:padding="5dp"
+                    android:textSize="11sp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/haircut"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textAlignment="center"
+
+                    />
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@id/haircut"
+                    android:id="@+id/imghaircut"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/haircut"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Hairstyle"
+                    android:padding="5dp"
+                    android:id="@+id/haierstyle"
+                    android:textSize="11sp"
+                    android:fontFamily="casual"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textAlignment="center"
+
+                    />
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@id/haierstyle"
+                    android:id="@+id/imghairsty"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/hairstyle"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Beared"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/Besred"
+                    android:textAlignment="center"
+                    android:fontFamily="casual"
+                    android:textSize="11sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:id="@+id/imgbeared"
+                    android:layout_below="@id/Besred"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/beared"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="80dp"
+
+                android:layout_height="80dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CreatineProtein"
+                    android:textSize="10sp"
+                    android:id="@+id/cp"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:padding="5dp"
+
+                    android:layout_centerHorizontal="true"
+
+
+
+                    />
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@id/cp"
+                    android:id="@+id/imgcr"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/creatineandprotein"/>
+            </RelativeLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lin1"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp">
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/OilBath"
+                    android:padding="5dp"
+                    android:textSize="11sp"
+                    android:id="@+id/oil"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textAlignment="center"
+                    android:fontFamily="casual"
+                    android:layout_centerHorizontal="true"
+                    />
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@id/oil"
+                    android:id="@+id/imgoil"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/oilbathforhair"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SkinCleaning"
+                    android:padding="5dp"
+                    android:textSize="11sp"
+                    android:id="@+id/skin"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textAlignment="center"
+                    android:fontFamily="casual"
+                    />
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@id/skin"
+                    android:id="@+id/imgskin"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/skincleaning"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Offers"
+                    android:id="@+id/offers"
+                    android:fontFamily="casual"
+
+                    android:textAlignment="center"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="11sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@id/offers"
+                    android:id="@+id/imgoffers"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/offers"/>
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">Maker</string>
+    <string name="title_activity_home">Maker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="needanew">Need A New Account ?</string>
+    <string name="uploadimage">Upload Image</string>
+    <string name="name">Name</string>
+    <string name="confpass">Confirm Password</string>
+    <string name="req">REGISTER</string>
+    <string name="mysalon">My Salon</string>
+    <string name="Salons">Salons</string>
+    <string name="Editmyprof">Edit My Profile</string>
+    <string name="logout">Log Out</string>
+    <string name="createmyprof">Create Salon Profile</string>
+    <string name="addservice">Add Service</string>
+    <string name="myservice">My Service</string>
+    <string name="memysalonprof">My Salon Profile</string>
+    <string name="plzselectcity">Please Select Your Salon City</string>
+    <string name="salonname">Salon Name</string>
+    <string name="salonphone">Salon  Phone</string>
+    <string name="salonaddress"> Salon  Address</string>
+    <string name="salonnameM">Name</string>
+    <string name="salonphoneM">Phone</string>
+    <string name="memysalonprofM">My Profile</string>
+    <string name="salonaddressM"> Address</string>
+    <string name="plzselectcityM">Please Select Your  City</string>
+    <string name="Imake">I Makeup Artist</string>
+    <string name="salonformen">Salon For Men</string>
+    <string name="salonforwomen">Salon For Women</string>
+    <string name="update">Update</string>
+    <string name="addyourservice">Add Your Service</string>
+    <string name="plzselectyourserciecatg">Please Select Your Service Category</string>
+    <string name="price">Price</string>
+    <string name="desc">Description</string>
+    <string name="addnewservice">Add New Service</string>
+    <string name="Close">Close</string>
+    <string name="changeprofile">Change Profile</string>
+    <string name="fav">favourite</string>
+    <string name="create">Create</string>
+    <string name="mtsalonfrof">My Salon Profile</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="serc">Search</string>
+    <string name="salonaddressisem">Salon Address is Empty</string>
+
+    <string name="SalonPhoneisEmpty">Salon Phone is Empty</string>
+    <string name="SalonPhonehaveminusnumber">Salon Phone  have minus number</string>
+    <string name="SalonNameisEmpty">Salon Name is Empty</string>
+    <string name="SalonCityisEmpty">Salon City is Empty</string>
+    <string name="PleaseUploadImage">Please Upload Image</string>
+    <string name="PleaseselectAreYourSalonForMenorForWomen">Please select Are Your Salon For Men or For Women</string>
+    <string name="CreateYourSalonProfile">Create Your Salon Profile</string>
+    <string name="PleasewaitwhileweareCreatingYourProfile">Please wait, while we are Creating Your Profile.</string>
+    <string name="ProfileCreated"> Profile Created</string>
+    <string name="ProfileUpdated">Profile Updated</string>
+    <string name="PleaseVerifyAllField">Please Verify All Field.</string>
+    <string name="PleaseEnterYourEmail">Please Enter Your Email</string>
+    <string name="PleaseEnterYourName">Please Enter Your Name</string>
+    <string name="PleaseEnterYourPassword">Please Enter Your Password</string>
+    <string name="PleaseEnterYourcPassword">Please Enter Your Password</string>
+    <string name="PleaseYourPasswordNotMatch">Please Your Password Not Match</string>
+    <string name="Accountcreated">Account created</string>
+    <string name="accountcreationfailed">account creation failed</string>
+    <string name="salondescriptionisempty">salon description  is empty</string>
+    <string name="pricehaveminusnumber">price  have minus number</string>
+    <string name="Productpriceisempty">Product  price  is empty</string>
+    <string name="addingnewservice">  adding new service</string>
+    <string name="Pleasewaitwhileweareaddingnewservice">Please wait, while we are adding new service.</string>
+    <string name="Serviceisadded">Service is added</string>
+
+    <string-array name="cat_array">
+        <item>Dresses</item>
+        <item>Suits</item>
+        <item>Accessories</item>
+
+    </string-array>
+    <string-array name="men_array">
+        <item>Haircut</item>
+        <item>Hairstyle</item>
+        <item>Beared</item>
+        <item>Creatine &amp; Protein</item>
+        <item>Oil Bath</item>
+        <item>Skin Cleaning</item>
+        <item>Offers</item>
+
+
+    </string-array>
+    <string-array name="women_array">
+        <item>Massage</item>
+        <item>Threading</item>
+        <item>Facial</item>
+        <item>Hair</item>
+        <item>Offers</item>
+        <item>Make Up</item>
+        <item>Body care</item>
+        <item> Waxing</item>
+        <item>Eyelash</item>
+        <item>Nails</item>
+        <item>Permanent MakeUp</item>
+        <item>Bridal Hair &amp; Makeup</item>
+
+    </string-array>
+    <string name="BridalHairampMakeup">Bridal Hair &amp; Makeup</string>
+
+    <string name="Call">Call</string>
+    <string name="PermanentMakeUp">Permanent MakeUp</string>
+    <string name="NailsMakeup">Nails</string>
+    <string name="Eyelash">Eyelash</string>
+    <string name="Bodycare">Body care</string>
+    <string name="MakeUp">Make Up</string>
+
+    <string name="Hair">Hair</string>
+    <string name="Facial">Facial</string>
+    <string name="Threading">Threading</string>
+    <string name="Massage">Massage</string>
+    <string name="Haircut">Haircut</string>
+    <string name="Hairstyle">Hairstyle</string>
+    <string name="Beared">Beared</string>
+    <string name="CreatineProtein">Creatine &amp; Protein</string>
+    <string name="OilBath">Oil Bath</string>
+    <string name="SkinCleaning">Skin Cleaning</string>
+    <string name="Offers">Offers</string>
+    <string name="Waxing">Waxing</string>
+    <string name="title_update_password">Update user\'s password</string>
+    <string name="title_send_password_reset">Send password reset</string>
+    <string name="PleaseEnterYourValidEmail">Please Enter a Valid Email </string>
+    <string name="ForgetYourpass">Forget Your Password ? </string>
+    <string name="makeupar">Makeup artist</string>
+    <string name="createmyprofm">My Profile</string>
+
+    <string-array name="city_array">
+        <item>Amman</item>
+        <item>Salt</item>
+        <item>Irbid</item>
+        <item>Aqaba</item>
+        <item>Ma\an</item>
+        <item>Tafilah</item>
+        <item>Zarqa</item>
+        <item>Ajloun</item>
+        <item>Karak</item>
+        <item>Madaba</item>
+        <item>Jerash</item>
+        <item>Fuhais</item>
+        <item>Mafraq</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="admob_showIntersitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-2109284707323352/6101040236</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2109284707323352/1832716068</string>
+
+</resources>

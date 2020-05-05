@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string  name="app_name">Maker</string>
+    <string name="title_activity_home">Maker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="email">الايميل</string>
+    <string name="password">الرقم السري</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="needanew"> هل تحتاج الى انشاء حساب جديد ؟</string>
+    <string name="uploadimage">تحميل صورة</string>
+    <string name="name">الاسم</string>
+    <string name="confpass">تأكيد الرقم السري</string>
+    <string name="req">تسجيل حساب</string>
+    <string name="mysalon">صالوني</string>
+    <string name="Salons">صالونات</string>
+    <string name="Editmyprof">تعديل صفحتي الشخصية</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="createmyprof">انشاء صفحة صالون</string>
+    <string name="addservice">اضافة خدمة</string>
+    <string name="myservice">خدماتي</string>
+    <string name="memysalonprof">صفحة صالوني</string>
+    <string name="plzselectcity">الرجاء اختيار مدينة الصالون</string>
+    <string name="salonname"> اسم  الصالون</string>
+    <string name="salonphone">رقم هاتف   الصالون</string>
+    <string name="salonaddress">عنوان  الصالون</string>
+    <string name="salonformen">صالون للرجال</string>
+    <string name="salonforwomen">صالون للنساء</string>
+    <string name="update">تعديل</string>
+    <string name="salonnameM">الاسم</string>
+    <string name="salonphoneM">رقم الهاتف</string>
+    <string name="memysalonprofM">صفحتي الشخصية</string>
+    <string name="salonaddressM"> العنوان</string>
+    <string name="Imake">انا ميك اب ارتست</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+
+    <string name="admob_showIntersitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-2109284707323352/6101040236</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2109284707323352/1832716068</string>
+    <string name="plzselectcityM">الرجاء اختيار المدينة</string>
+    <string name="addyourservice">اضاقة خدمتك</string>
+    <string name="plzselectyourserciecatg">الرجاء اختيار صنف خدمتك</string>
+    <string name="price">السعر</string>
+    <string name="desc">التفاصيل</string>
+    <string name="addnewservice">اضافة خدمة جديدة</string>
+    <string name="Close">خروج</string>
+    <string name="changeprofile">تعديل صفحتي</string>
+    <string name="fav">المفضلة</string>
+    <string name="create">انشاء</string>
+    <string name="mtsalonfrof">صفحة صالوني</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="salonaddressisem" >عنوان الصالون عير مدخل</string>
+
+    <string name="SalonPhoneisEmpty">هاتف  الصالون غير مدخل</string>
+    <string name="SalonPhonehaveminusnumber">رقم الهاتف يحتوي على رقم سالب</string>
+    <string name="SalonNameisEmpty">اسم الصالون غير مدخل</string>
+    <string name="SalonCityisEmpty">مدينة الصالون غيره مدخله</string>
+    <string name="PleaseUploadImage">الرجاء تحميل الصورة</string>
+    <string name="PleaseselectAreYourSalonForMenorForWomen">الرجاء اختيار اذا كان الصالون للرجال او للنساء</string>
+    <string name="CreateYourSalonProfile">انشاء صفحةصالونك</string>
+    <string name="PleasewaitwhileweareCreatingYourProfile">الرجاء الانتظار الى حين انشاء صفحتك</string>
+    <string name="ProfileCreated"> تم انشاء صفحتك</string>
+    <string name="ProfileUpdated">تم تعديل صفحتك</string>
+    <string name="PleaseVerifyAllField">الرجاء ادخال جميع المدخلات</string>
+    <string name="PleaseEnterYourEmail">الرجاء ادخال الايميل</string>
+    <string name="PleaseEnterYourName">الرجاء ادخال الاسم</string>
+    <string name="PleaseEnterYourPassword">الرجاء ادخال الرقم السري</string>
+    <string name="PleaseEnterYourcPassword">الرجاء ادخال تاكيد الرقم السري</string>
+    <string name="PleaseYourPasswordNotMatch">الرقم السري غير متطابق</string>
+    <string name="Accountcreated">تم انشاء الحساب</string>
+    <string name="accountcreationfailed">فشل انشاء الحساب</string>
+    <string name="salondescriptionisempty">لم يتم ادخال تفاصيل الصالون</string>
+    <string name="pricehaveminusnumber">السعر يحتوي على رقم سالب</string>
+    <string name="Productpriceisempty">لم يتم ادخال السعر</string>
+    <string name="addingnewservice">  اضافة خدمة جديدة</string>
+    <string name="Pleasewaitwhileweareaddingnewservice">الرجاء الانتظار الى حين اضافة خدمتك</string>
+    <string name="Serviceisadded">تم اضافة الخدمة</string>
+    <string-array name="cat_array">
+        <item>Dresses</item>
+        <item>Suits</item>
+        <item>Accessories</item>
+
+    </string-array>
+    <string-array name="men_array">
+        <item>قص شعر</item>
+        <item>تسريحات شعر</item>
+        <item>لحية</item>
+        <item>كرياتين و بروتين</item>
+        <item>حمام زيت</item>
+        <item>غسيل بشرة</item>
+        <item>عروض</item>
+
+
+    </string-array>
+    <string name="makeupar">ميك اب ارتست</string>
+    <string name="createmyprofm">صفحتي الشخصية</string>
+    <string name="Haircut">قص شعر</string>
+    <string name="Hairstyle">تسريحات شعر</string>
+    <string name="Beared">لحية</string>
+    <string name="CreatineProtein">كرياتين و بروتين</string>
+    <string name="PleaseEnterYourValidEmail">الرجاء ادخال ايميل متاح </string>
+    <string name="ForgetYourpass">لا اتذكر الرقم السري ؟ </string>
+    <string name="OilBath">حمام زيت</string>
+    <string name="SkinCleaning">تنظيف بشرة</string>
+    <string name="Offers">عروض</string>
+    <string name="Waxing">ازالة الشعر</string>
+    <string-array name="women_array">
+        <item>المساج</item>
+        <item>خيوط</item>
+        <item>تجميل الوجه</item>
+        <item>الشعر</item>
+        <item>عروض</item>
+        <item>المكياج</item>
+        <item>العناية بالجسم</item>
+
+        <item>رمشة عين</item>
+        <item>الأظافر</item>
+        <item>مكياج دائم</item>
+        <item>مكياج و شعر العرسان</item>
+
+    </string-array>
+    <string name="BridalHairampMakeup">مكياج و شعر العرسان</string>
+    <string name="PermanentMakeUp">ماكياج دائم</string>
+    <string name="NailsMakeup">الأظافر</string>
+    <string name="Eyelash">الرموش</string>
+    <string name="Bodycare">العناية بالجسم</string>
+    <string name="MakeUp">المكياج</string>
+
+    <string name="Hair">الشعر</string>
+    <string name="Facial">تجميل الوجه</string>
+    <string name="Threading">خيوط</string>
+
+    <string name="Massage">المساج</string>
+    <string name="Call">اتصال</string>
+    <string name="serc">بحث</string>
+    <string name="title_update_password">تحديث رقم السري للمستخدم</string>
+    <string name="title_send_password_reset">إرسال إعادة تعيين كلمة المرور</string>
+    <string-array name="city_array">
+        <item>عمان</item>
+        <item>السلط</item>
+        <item>اربد</item>
+        <item>العقبة</item>
+        <item>معان</item>
+        <item>الطفيلة</item>
+        <item>الزرقاء</item>
+        <item>عجلون</item>
+        <item>الكرك</item>
+        <item>مادبا</item>
+        <item>جرش</item>
+        <item>الفحيص</item>
+        <item>المفرق</item>
+    </string-array>
+
+
+
+</resources>
